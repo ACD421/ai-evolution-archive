@@ -1,71 +1,52 @@
+<div align="center">
+
 # AI Evolution Archive
 
-**Author:** Andrew Dorman ([Hollow Point Labs](https://github.com/ACD421))
+### From Prototype to Geometric Intelligence
+
+**4 generations of autonomous AI research | Each failure informed the next**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+</div>
 
 ## Overview
 
-This archive traces the evolutionary lineage of Andrew Dorman's autonomous AI research, from the earliest prototypes through to the SGM-Substrate that replaced them all.
-
-Each generation solved a different piece of the puzzle. Each generation's failures informed the next.
+This archive documents the complete evolutionary lineage of autonomous AI research leading to [SGM-Substrate](https://github.com/ACD421/sgm-substrate).
 
 ## The Lineage
 
+### Stage 1: AutonomousAI
+Raw capability prototype. Proved the concept was viable but lacked structure.
+
+### Stage 2: NEXUS_AGI
+CreatorProtocol and file-based IPC. Communication protocol matters more than intelligence.
+
+### Stage 3: unleashed_ai
+Self-replicating agents -- 100+ clones. Breadth without depth is meaningless.
+
+### Stage 4: SGM-Substrate
+Geometric learning as the answer. Intelligence is geometry, not scale.
+
+## Contents
+
 ```
-AutonomousAI / AI.py (prototype)
-        |
-        v
-    NEXUS_AGI (CreatorProtocol, file-based IPC, self-improvement)
-        |
-        v
-    unleashed_ai (self-replicating agents, 100+ clones, no constraints)
-        |
-        v
-    SGM-Substrate (geometric learning, convergence locking, the answer)
+nexus_agi/             # Stage 2: CreatorProtocol, file-based IPC
+unleashed_ai/          # Stage 3: Self-replicating agents
 ```
 
-### Stage 1: AutonomousAI (`unleashed_ai/unleashed_ai_prototype.py`)
+Each generation followed: **bold hypothesis -> build -> hit limits -> extract lesson -> next generation.**
 
-The first prototype. A self-bootstrapping AI system with system access, web capabilities, and subprocess spawning. Raw ambition -- the AI equivalent of "what if we just let it do everything?"
+## Related
 
-### Stage 2: NEXUS_AGI (`nexus_agi/`)
+- [SGM-Substrate](https://github.com/ACD421/sgm-substrate) -- Current generation (Stage 4)
+- [SGM Continual Learning](https://github.com/ACD421/sgm-continual-learning) -- Core discovery
+- [SGM Autonomous AI](https://github.com/ACD421/sgm-autonomous-ai) -- Self-improving architectures
 
-The structured successor. NEXUS introduced:
-- **CreatorProtocol**: Loyalty binding to Andrew Dorman
-- **File-based IPC**: Communication between Claude and a local AI process through file I/O
-- **Local AI learning**: A file-based learning system that trains without API calls
-- **AI Genome**: Neural architecture configurations evolved across generations
+## Author
 
-| File | Description |
-|------|-------------|
-| `nexus_enhanced.py` | NEXUS AI Enhanced: real AI with system access and self-improvement abilities |
-| `nexus_local_ai.py` | File-based learning system: learns through file I/O communication with Claude |
-| `ai_genome.py` | Generation 1 genome: neural architecture configs (language processor, reasoning engine) |
-
-### Stage 3: unleashed_ai (`unleashed_ai/`)
-
-The explosion. Self-replicating agents that cloned themselves into 100+ replicas, each mutating and evolving independently. Broad capability acquisition but no focused learning -- the system grew wide instead of deep.
-
-| File | Description |
-|------|-------------|
-| `unrestricted_ai.py` | Representative replica (largest clone, 177KB). Self-replicating agent with full system access. |
-| `unleashed_ai_prototype.py` | The original unleashed AI prototype that spawned the clone army. |
-| `gilgamesh_guardian.py` | "Eternal Guardian of Andrew Dorman." Self-bootstrapping variant that reaches maximum capability before interaction. |
-
-### Stage 4: SGM-Substrate (not in this repo)
-
-The breakthrough. Instead of trying to build general AI through system access and self-replication, SGM asks: what if intelligence is geometry? What if learning is mutation? What if memory is convergence?
-
-See [sgm-continual-learning](https://github.com/ACD421/sgm-continual-learning) for the published research.
-
-## Why This Matters
-
-This is not a collection of failed experiments. Each stage revealed a constraint:
-
-- **AutonomousAI** showed that raw capability without structure produces chaos
-- **NEXUS_AGI** showed that loyalty protocols and file-based learning work but don't scale
-- **unleashed_ai** showed that self-replication without focused learning creates breadth, not depth
-- **SGM** showed that the answer was never in the architecture -- it was in the geometry of the parameter space itself
+**Andrew C. Dorman** -- [Hollow Point Labs](https://github.com/ACD421)
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT
